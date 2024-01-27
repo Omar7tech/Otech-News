@@ -1,0 +1,44 @@
+array(2) {
+  [0]=>
+  array(9) {
+    ["id"]=>
+    string(1) "2"
+    ["user_id"]=>
+    string(1) "1"
+    ["post_id"]=>
+    string(1) "5"
+    ["content"]=>
+    string(18) "amouraaaa mnawerrr"
+    ["created_at"]=>
+    string(19) "2023-12-10 13:08:17"
+    ["username"]=>
+    string(5) "admin"
+    ["email"]=>
+    string(20) "omar.7tech@gmail.com"
+    ["post_title"]=>
+    string(18) "Lets Talk about IT"
+    ["post_content"]=>
+    string(1219) "Information Technology (IT) is a dynamic and rapidly evolving field that encompasses the use of computers and technology to manage and process information. In the realm of web development, backend specialization, like what you are studying, focuses on the server-side logic and functionality that powers websites and web applications. IT professionals play a crucial role in designing, implementing, and maintaining robust systems. This involves database management, server administration, and ensuring the security of data and transactions. Cloud computing has become a pivotal aspect of IT, providing scalable and flexible solutions for various computing needs. Emerging technologies such as artificial intelligence and the Internet of Things are reshaping the IT landscape, offering new possibilities and challenges. IT professionals often collaborate with cross-functional teams to develop innovative solutions, making effective communication and problem-solving skills essential. Continuous learning is key in this field, given the constant advancements and updates in technology. Overall, a career in IT offers exciting opportunities to contribute to the digital transformation of industries and society at large."
+  }
+  [1]=>
+  array(9) {
+    ["id"]=>
+    string(1) "3"
+    ["user_id"]=>
+    string(1) "1"
+    ["post_id"]=>
+    string(1) "5"
+    ["content"]=>
+    string(15) "ahlaa 3amouraaa"
+    ["created_at"]=>
+    string(19) "2023-12-10 13:43:43"
+    ["username"]=>
+    string(5) "admin"
+    ["email"]=>
+    string(20) "omar.7tech@gmail.com"
+    ["post_title"]=>
+    string(18) "Lets Talk about IT"
+    ["post_content"]=>
+    string(1219) "Information Technology (IT) is a dynamic and rapidly evolving field that encompasses the use of computers and technology to manage and process information. In the realm of web development, backend specialization, like what you are studying, focuses on the server-side logic and functionality that powers websites and web applications. IT professionals play a crucial role in designing, implementing, and maintaining robust systems. This involves database management, server administration, and ensuring the security of data and transactions. Cloud computing has become a pivotal aspect of IT, providing scalable and flexible solutions for various computing needs. Emerging technologies such as artificial intelligence and the Internet of Things are reshaping the IT landscape, offering new possibilities and challenges. IT professionals often collaborate with cross-functional teams to develop innovative solutions, making effective communication and problem-solving skills essential. Continuous learning is key in this field, given the constant advancements and updates in technology. Overall, a career in IT offers exciting opportunities to contribute to the digital transformation of industries and society at large."
+  }
+}

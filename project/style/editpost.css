@@ -1,0 +1,79 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-x: hidden;
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #191633, #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #252150, #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff; /* or your preferred accent color */
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff; /* or your preferred accent color */
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #444;
+    background-color: #222;
+    color: #fff;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #5700bb; /* or your preferred accent color */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #4fa3d1; /* or a darker shade of your accent color */
+}
+
+/* Add more styles as needed */
+
+#cancelbtn{
+    background-color: #646464; /* or your preferred accent color */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#content {
+    resize: vertical;
+}

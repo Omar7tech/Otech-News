@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - O-tech</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333
+        }
+        body.light-mode {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        body.light-mode .about-section,
+        body.light-mode .contact-form {
+            background-color: #fff;
+            color: #333;
+        }
+
+        body.dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+
+        body.dark-mode .about-section,
+        body.dark-mode .contact-form {
+            background-color: #444;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #3498db;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .about-section{
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    color: #3498db;
+}
+
+.contact-form p {
+    color: #666;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #2980b9;
+}
+        
+        .contact-images img {
+            width: 45%;
+            border-radius: 40px;
+            margin-bottom: 10px;
+        }
+        .contact-images{
+            display: flex;
+            flex-direction:space-between;
+            align-items: center;
+        }
+        .contact-images div{
+            text-align: center;
+            width: 48%;
+        }
+        .contact-images p{
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="about-section">
+            <h1>Welcome to O-tech</h1>
+            <p>Unveiling the Future of Technology</p>
+            <p>At O-tech, we are passionate about exploring the limitless possibilities that technology offers. As a cutting-edge technology company, our mission is to redefine the way we interact with the digital world through innovative hardware and software solutions.</p>
+
+            <h2>Our Vision</h2>
+            <p>In a world driven by technology, O-tech envisions a future where seamless integration of hardware and software empowers individuals and businesses to achieve new heights of efficiency, creativity, and connectivity. We strive to be pioneers in shaping this future, constantly pushing the boundaries of what technology can achieve.</p>
+
+            <h2>The Heart of Our Innovation</h2>
+            <h3>Hardware Excellence</h3>
+            <p>Our hardware solutions embody the latest advancements in design, performance, and functionality. From powerful processors and sleek devices to robust infrastructure, O-tech's commitment to hardware excellence ensures that our users experience a new level of reliability and performance.</p>
+
+            <h3>Software Ingenuity</h3>
+            <p>In the realm of software, O-tech stands out for its commitment to user-friendly interfaces, intelligent algorithms, and transformative applications. We believe that software should not only meet but exceed user expectations, providing solutions that are intuitive, adaptive, and ahead of the curve.</p>
+
+            <h2>Bridging the Gap</h2>
+            <p>O-tech is more than a technology provider; we are a bridge between the present and the future. By seamlessly integrating hardware and software, we create ecosystems that enhance productivity, foster innovation, and simplify complex tasks.</p>
+
+            <h2>Our Team</h2>
+            <p>Behind every technological breakthrough at O-tech is a team of dedicated professionals who are driven by a shared passion for innovation. Our diverse and talented team works collaboratively to turn ideas into reality, ensuring that O-tech remains at the forefront of technological evolution.</p>
+
+            <h2>Join the O-tech Community</h2>
+            <p>As we continue to push the boundaries of technology, we invite you to join the O-tech community. Share in our excitement for the future, stay updated on the latest advancements, and be part of a community that appreciates the transformative power of technology.</p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <p>Have questions, suggestions, or simply want to learn more about O-tech? Reach out to us—we'd love to hear from you. Connect with us on social media, or drop us a line through our contact page. Welcome to O-tech, where the future of technology unfolds.</p>
+            <div class="contact-images">
+                <div>
+                <img src="a3a1fe08-3bca-4eaa-a943-ab12ce3dc3ec.jpeg">
+                <p>Omar abi farraj</p><br></div>
+                <div>
+                <img src="2f0d03a1-1e12-4ed3-a74c-53b4b7e0ec5c.jpeg">
+                <p>Omar aldanaf</p><br></div>
+            </div>
+            <form action="aboutus.html" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" placeholder="Type your message here" rows="4" required></textarea>
+        
+                <button type="submit">Send Message</button>
+            </form>
+
+            <p>Thank you for choosing O-tech as your partner in the journey of technological exploration.</p>
+        </div>
+    </div>
+    <button id="toggleMode" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+<script>
+    function toggleDarkMode() {
+                const body = document.body;
+                const isDarkMode = body.classList.contains('dark-mode');
+
+                
+                if (isDarkMode) {
+                    body.classList.remove('dark-mode');
+                    body.classList.add('light-mode');
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    body.classList.remove('light-mode');
+                    body.classList.add('dark-mode');
+                    localStorage.setItem('theme', 'dark');
+                }
+            }
+
+            
+            document.addEventListener('DOMContentLoaded', function () {
+                const savedTheme = localStorage.getItem('theme');
+
+                if (savedTheme === 'dark') {
+                    document.body.classList.add('dark-mode');
+                } else {
+                    document.body.classList.add('light-mode');
+                }
+            });
+</script>
+</body>
+</html>
